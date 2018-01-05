@@ -54,14 +54,22 @@
 		C4186B851FFF91980074B164 /* FlipCardGame */ = {
 			isa = PBXGroup;
 			children = (
-				C4186B861FFF91980074B164 /* AppDelegate.swift */,
+				C4186B981FFFCC380074B164 /* SupportingFiles */,
 				C4186B881FFF91980074B164 /* ViewController.swift */,
 				C4186B8A1FFF91980074B164 /* Main.storyboard */,
-				C4186B8D1FFF91980074B164 /* Assets.xcassets */,
-				C4186B8F1FFF91980074B164 /* LaunchScreen.storyboard */,
 				C4186B921FFF91980074B164 /* Info.plist */,
 			);
 			path = FlipCardGame;
+			sourceTree = "<group>";
+		};
+		C4186B981FFFCC380074B164 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C4186B861FFF91980074B164 /* AppDelegate.swift */,
+				C4186B8D1FFF91980074B164 /* Assets.xcassets */,
+				C4186B8F1FFF91980074B164 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
