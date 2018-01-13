@@ -8,6 +8,6 @@
 
 import Foundation
 class Card {
-    var identifier:Int
+    
     
 }

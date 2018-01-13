@@ -9,8 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var hasFlippedCard = false
+    
     var flipCount = 0 {
-        didSet {
+        didSet {//property obsever.
             flipCountTable.text = "Flips:\(flipCount)"
         }
     }
@@ -19,10 +21,13 @@ class ViewController: UIViewController {
     @IBOutlet var cardButtons: [UIButton]!//outlet connection is kind of an array of ui
     
     @IBOutlet weak var flipCountTable: UILabel!
+    
     @IBAction func touchCard(_ sender: UIButton) {
         flipCount += 1
         if let cardNumber = cardButtons.index(of: sender) {
-            
+            if hasFlippedCard {
+                
+            }
         }
 
     }
